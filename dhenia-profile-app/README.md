@@ -1,16 +1,20 @@
-# React + Vite
+# Dhenia Profile App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah project website portofolio pribadi yang dibuat menggunakan **React.js**. Website ini menampilkan profil diri, informasi zodiak interaktif, dan galeri film favorit saya.
 
-Currently, two official plugins are available:
+## Fitur Utama
+- **Profil Profil:** Informasi singkat tentang pendidikan, tanggal lahir, dan latar belakang saya.
+- **Zodiac Interactive:** Tombol interaktif yang menampilkan info zodiak (Scorpio) lengkap dengan *popup* kustom.
+- **Favorite Movies:** Galeri film favorit dengan desain kartu yang responsif.
+- **Responsive Design:** Tampilan yang sudah disesuaikan untuk layar HP maupun Desktop.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Teknologi yang Digunakan
+- React.js (Vite)
+- CSS3 (Custom Styling)
+- JavaScript (ES6+)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Cara Menjalankan
+1. Pastikan sudah menginstal [Node.js](https://nodejs.org/).
+2. Clone repository ini:
+   ```bash
+   git clone https://github.com/Szhneia/dhenia-profile-app

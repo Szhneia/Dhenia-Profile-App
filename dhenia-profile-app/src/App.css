@@ -152,7 +152,7 @@ html, body, #root {
   bottom: 60px; 
   right: 0;
   background-color: #F4EAE6; 
-  padding: 15px 20px;
+  padding: 15px 20px; /* Ukuran kotak dirapatkan */
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -171,9 +171,9 @@ html, body, #root {
 
 /* KUNCI UTAMA: Kita paksa bungkus ikonnya jadi kecil */
 .popup-icon {
-  width: 70px; 
-  height: 70px; 
-  flex-shrink: 0; 
+  width: 55px;  /* Lebar dikunci kecil */
+  height: 55px; /* Tinggi dikunci kecil */
+  flex-shrink: 0; /* Mencegah gambar membesar sendiri meskipun resolusi aslinya raksasa */
   display: flex;
   justify-content: center;
   align-items: center;
